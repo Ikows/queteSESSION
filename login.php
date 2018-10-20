@@ -1,5 +1,11 @@
 <?php
 session_start();
+if (!empty($_SESSION["loginname"]))
+{
+    header('Location: index.php');
+    exit();
+}
+
 if (isset($_POST["loginname"]))
 {
     $_SESSION['loginname'] = $_POST["loginname"];
