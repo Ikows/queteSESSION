@@ -39,7 +39,7 @@ require 'inc/head.php'; ?>
         <img src="assets/img/product-46.jpg" alt="cookies choclate chips" class="img-responsive">
         <figcaption class="caption">
           <h3>Pecan nuts</h3>
-          <p>Cooked by Penny !</p>
+          <p>Cooked by Penny !!</p>
             <a  href="?add_to_cart=46" class="btn btn-primary">
                 <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add to cart
             </a><br><br>
